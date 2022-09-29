@@ -1,0 +1,7 @@
+openpyxl
+requests
+bs4
+beautifulsoup4
+pandas
+selenium
+cloudscraper

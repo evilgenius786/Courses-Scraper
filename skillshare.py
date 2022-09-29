@@ -89,9 +89,9 @@ def main():
         if not os.path.isdir(d):
             os.mkdir(d)
     combineJson()
-    for i in range(40440 // ps + 1):
-        getCourses(i)
-    processCourses()
+    # for i in range(40440 // ps + 1):
+    #     getCourses(i)
+    # processCourses()
 
 
 def getCursor(pageSize):

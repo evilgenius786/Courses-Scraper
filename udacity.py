@@ -1,10 +1,8 @@
 import csv
 import json
-import os
 
 import openpyxl
 import requests
-from bs4 import BeautifulSoup
 
 name = "Udacity"
 encoding = "utf-8"

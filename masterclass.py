@@ -3,10 +3,9 @@ import json
 import os
 import traceback
 
-import openpyxl
-import requests
-from bs4 import BeautifulSoup
 import cloudscraper
+import openpyxl
+from bs4 import BeautifulSoup
 
 name = "MasterClass"
 encoding = "utf-8"
