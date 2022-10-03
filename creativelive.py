@@ -98,7 +98,7 @@ def startUrls():
             for url in f.read().splitlines():
                 threads.append(threading.Thread(target=getCourse, args=(f"https://www.creativelive.com{url}",)))
                 threads[-1].start()
-                time.sleep(0.1)
+                # time.sleep(0.1)
     for thread in threads:
         thread.join()
 
